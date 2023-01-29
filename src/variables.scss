@@ -1,8 +1,17 @@
 :root {
 	--background-tertiary: #0000;
+    --home-image: url('https://i.imgur.com/233d55Y.gif');
+    --avatar-size: 32px;
 }
 
 .theme-dark {
     --text-normal: #ffffff;
-    --text-muted: #ff0000f6;
+    --text-muted: #e0dcdc;
+    --text-link: #3d84ff;
+    --background-primary: #0000;
+    --background-secondary: #0f0f0f;
+    --background-secondary-alt: #252525;
+    --background-tertiary: #1f2021;
+    --header-primary: #ffffff;
+    --header-secondary: #dbdbdb;
 }

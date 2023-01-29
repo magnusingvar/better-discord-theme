@@ -4,4 +4,55 @@
 	* @description bruh
 	* @version 0.1
 */
-:root{--background-tertiary: #0000}.theme-dark{--text-normal: #ffffff;--text-muted: #ff0000f6}
+:root {
+  --background-tertiary: #0000;
+  --home-image: url("https://i.imgur.com/233d55Y.gif");
+  --avatar-size: 32px;
+}
+
+.theme-dark {
+  --text-normal: #ffffff;
+  --text-muted: #e0dcdc;
+  --text-link: #3d84ff;
+  --background-primary: #0000;
+  --background-secondary: #0f0f0f;
+  --background-secondary-alt: #252525;
+  --background-tertiary: #1f2021;
+  --header-primary: #ffffff;
+  --header-secondary: #dbdbdb;
+}
+
+/* sidebar */
+.wrapper-1_HaEi {
+  width: 62px;
+}
+
+.listItem-3SmSlK {
+  width: 20px;
+  padding: 0px 22px 0px 22px;
+}
+
+.homeIcon-r0w4ny {
+  display: none !important;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  background-color: transparent;
+}
+
+.tutorialContainer-1pL9QS .childWrapper-1j_1ub {
+  background-image: var(--home-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.item-2LIpTv {
+  background-color: red;
+}
+
+span.item-2LIpTv {
+  background-color: red;
+}
